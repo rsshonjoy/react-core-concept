@@ -11,4 +11,4 @@ function Clock() {
         </h1>
     );
 }
-ReactDOM.render(Clock(), document.getElementById('root'));
+ReactDOM.render(<Clock />, document.getElementById('root'));
