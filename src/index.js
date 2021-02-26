@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './index.css';
 
 const todoTitle = 'Call Family';
 const todoDesc = 'rs shonjoy is a full stark web developer.';
