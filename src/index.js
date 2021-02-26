@@ -10,7 +10,7 @@ const currentYear = date.getFullYear();
 
 ReactDOM.render(
     <div>
-        <h1>{todoTitle}</h1>
+        <h1 style={{ color: 'cyan', fontSize: '3rem' }}>{todoTitle}</h1>
         <h3>{todoDesc}</h3>
         <p>{`${dateName} ${monthName} ${currentYear}`}</p>
     </div>,
