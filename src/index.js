@@ -9,14 +9,23 @@ const dateName = date.getDate();
 const monthName = date.getMonth();
 const currentYear = date.getFullYear();
 
-ReactDOM.render(
-    <div>
-        <h1 className="headingStyle">Todo App</h1>
+function Card() {
+    return (
         <div className="card">
             <h3 className="cardTitle">{todoTitle}</h3>
             <p className="cardDesc">{todoDesc}</p>
             <p className="cardFooter">{`${dateName} ${monthName} ${currentYear}`}</p>
         </div>
+    );
+}
+
+ReactDOM.render(
+    <div>
+        <h1 className="headingStyle">Todo App</h1>
+        <Card />
+        <Card />
+        <Card />
+        <Card />
     </div>,
     document.getElementById('root')
 );
