@@ -8,16 +8,9 @@ const dateName = date.getDate();
 const monthName = date.getMonth();
 const currentYear = date.getFullYear();
 
-const headingStyle = {
-    backgroundColor: 'gray',
-    color: 'cyan',
-    textAlign: 'center',
-    padding: '15px',
-};
-
 ReactDOM.render(
     <div>
-        <h1 style={headingStyle}>{todoTitle}</h1>
+        <h1 className="headingStyle">{todoTitle}</h1>
         <h3>{todoDesc}</h3>
         <p>{`${dateName} ${monthName} ${currentYear}`}</p>
     </div>,
