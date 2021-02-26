@@ -5,10 +5,22 @@ function App() {
     return (
         <div>
             <h1 className="headingStyle">Todo App</h1>
-            <Card />
-            <Card />
-            <Card />
-            <Card />
+            <Card
+                titleText="Call Family"
+                descText="My name is Shonjoy Das. I'am a full stark web developer."
+            />
+            <Card
+                titleText="Call Family"
+                descText="My name is Shonjoy Das. I'am a full stark web developer."
+            />
+            <Card
+                titleText="Call Family"
+                descText="My name is Shonjoy Das. I'am a full stark web developer."
+            />
+            <Card
+                titleText="Call Family"
+                descText="My name is Shonjoy Das. I'am a full stark web developer."
+            />
         </div>
     );
 }
