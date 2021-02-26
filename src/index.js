@@ -1,14 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const index = 0;
+const todoTitle = 'Call Family';
+const todoDesc = 'rs shonjoy is a full stark web developer.';
+const date = '26/02/2021';
 
-function Clock({ locale }) {
-    return (
-        <h1 className="heading" tabIndex={index}>
-            <span className="text">Hello {new Date().toLocaleTimeString(locale)}</span>
-            <img src="" alt="" />
-        </h1>
-    );
-}
-ReactDOM.render(<Clock locale="bn-BD" />, document.getElementById('root'));
+ReactDOM.render(
+    <div>
+        <h1>{todoTitle}</h1>
+        <h3>{todoDesc}</h3>
+        <p>{date}</p>
+    </div>,
+    document.getElementById('root')
+);
